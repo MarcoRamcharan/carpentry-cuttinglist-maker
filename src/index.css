@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chooseType{
+  height: 50vh;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chooseType-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.chooseVariant{
+  height: 50vh;
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specs{
+  height: 50vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.specs div{
+  margin: 10px;
+  display: flex;
+  width: 15%;
+  align-items: center;
+}
+
+.specs div label{
+  width: 30%;
+}
+
+.specs div input, select{
+  width: 70%;
+  height: 40px;
+}
+
+.box{
+  margin: 10px;
+  border: 1px solid black;
+  background-color: azure;
+}
+
+.nav{
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav div{
+  cursor: pointer;
+}
+
+#listIcon{
+  transition: all 1s;
+}
+
+.nav div:hover #listIcon{
+  color: dodgerblue;
+}
+
+.mainList{
+  height: 90vh;
+  background-color: red;
+  position: fixed;
+  top: 10vh;
+  right: 0;
+  transition: all 1s;
+}
